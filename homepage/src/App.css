@@ -1,0 +1,87 @@
+#root {
+    /* background-color: rgb(255, 188, 188); */
+    background-image: url('./imagesHomepage/background.png');
+    background-size: cover;
+    display: flex;
+    border: 1px black solid;
+    margin-left: 40px;
+    height: 600px;
+    width: 800px;
+}
+
+#divImgEqpos {
+    margin: 20px 0px 0px 50px;
+}
+
+#nameDiv {
+    background-color: white;
+    width: 400px;
+    height: 126px;
+    border: 3px rgb(190, 190, 190) solid;
+    border-radius: 4%;
+    margin: 140px 0px 0px 4px;
+}
+
+#würzburgerStube {
+    font-size: 20px;
+    margin: 2px 0px 20px 4px;
+}
+
+ #würzburgerStubeWithBrackets {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px 0px 10px 10px;
+}
+
+.address {
+    margin-left: 6px;
+    font-size: 11px;
+    color: blue;
+}
+
+#buttonsDiv {
+    margin-top: 46px;
+    /* background-color: aqua; */
+    height: 54px;
+    width: 800px;
+    display: flex;
+}
+
+#buttonsDiv button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#system,#dauerhistorie,#verkauf {
+    background-color: black;
+    color: rgb(190, 190, 190);
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6%;
+    height: 54px;
+    width: 130px;
+    margin: 0px 4px;
+}
+
+#buttonsDiv button div {
+    display: flex;
+    margin-left: 6px;
+}
+
+#beenden {
+    background-color: rgb(240, 0, 0);
+    color: rgb(190, 190, 190);
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6%;
+    height: 54px;
+    width: 130px;
+    margin-left: 250px;
+}
+
+button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,368 @@
+#wholeContainer {
+  display: flex;
+  /* border: 1px black solid; */
+  background-color: white;
+  margin-left: 40px;
+  height: 600px;
+  width: 800px;
+}
+
+#leftContainer {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px black solid; */
+  width: 340px;
+}
+
+#leftContainerFirst {
+  height: 290px;
+  /* border: 1px black solid; */
+  display: flex;
+}
+
+#leftContainerFirst,#leftContainerSecond,#leftContainerFourth,#bottomDiv,#rightContainerBottom {
+  display: flex;
+}
+
+#leftContainerSecond {
+  height: 100px;
+  /* border: 1px black solid; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#leftContainerThird {
+  height: 36px;
+  /* border: 1px black solid; */
+}
+
+#oneFirst {
+  width: 42.5px;
+  background-color: rgb(158, 163, 211);
+  display: flex;
+  flex-direction: column;
+  /* border: 1px black solid; */
+}
+
+.buttonsOneFirst {
+  height: 42.5px;
+  font-size: 28px;
+  border: 1px black solid;
+  font-weight: bold;
+}
+
+#x {
+  color: white;
+  background-color: red;
+  margin-bottom: 21.25px;
+}
+
+#plus {
+  color: white;
+  background-color: rgb(19, 200, 19);
+}
+
+#minus {
+  color: white;
+  background-color: red;
+  margin-bottom: 42.5px;
+}
+
+.arrows {
+  color: blue;
+  background-color: white;
+}
+
+#twoFirst {
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  width: 297.5px;
+  font-size: 14px;
+  border-collapse: collapse;
+}
+
+tbody {
+  color: white;
+  height: 238px;
+}
+
+th {
+  border: 1px black solid;
+}
+
+thead {
+  font-size: 12px;
+  height: 25px;
+  background-color: rgb(204, 223, 241);
+}
+
+.imgOneSecond {
+  width: 60px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin-right: 5px;
+}
+
+#divImgPlusOneSecond {
+  height: 47.5px;
+  width: 58px;
+  margin-left: 2px;
+}
+
+#divImgAusserHausOneSecond {
+  height: 45px;
+  width: 58px;
+  margin: 5px 0px 2.5px 2px;
+}
+
+#divImgBagWithArrow {
+  width: 65px;
+  height: 47.5px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#twoSecond {
+  width: 275px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#leftContainerSecond {
+  height: 100px;
+}
+
+#leftContainerSecond,#leftContainerThird,#leftContainerFourth {
+  background-color: rgb(222, 222, 222);
+}
+
+#divImgTable {
+  width: 205px;
+  margin-right: 5px;
+  height: 47.5px;
+  background-color: white;
+}
+
+#divImgBagWithArrow,#divImgTable,.imgOneSecond,#divImgBezahlung,#divImgSearch,#divImgAbc,#divKundenkarte,#divLetzterBon,#divGo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#leftContainerThird {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#divImgBezahlung {
+  margin-top: 2.5px;
+  width: 275px;
+  height: 47.5px;
+  display: flex;
+  background-color: rgb(84, 84, 253);
+}
+
+#leftContainerThird input {
+  height: 30px;
+  width: 238px;
+  font-size: 28px;
+  margin-left: 2px;
+}
+
+#divImgSearch {
+  width: 50px;
+  height: 36px;
+}
+
+#divImgAbc {
+  height: 32px;
+  margin: 2px;
+  width: 46px;
+  background-color: white;
+  border: 1px rgb(212, 212, 212) solid;
+}
+
+#leftContainerFourth {
+  height: 210px;
+}
+
+#oneFourth {
+  /* background-color: rgb(241, 241, 36); */
+  width: 249px;
+  height: 170px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#oneFourth button {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 2px;
+  width: 79px;
+  /* height: ; */
+  border: 2px rgb(212, 212, 212) solid;
+  border-radius: 6%;
+}
+
+#xOneFourth {
+  color: red;
+}
+
+#twoFourth {
+  display: flex;
+  flex-direction: column;
+  width: 90px;
+  height: 170px;
+}
+
+#twoFourth button {
+  height: 40px;
+  border-radius: 10%;
+  margin: 0px 2px 2px 1px;
+}
+
+#c {
+  font-size: 26px;
+  color: white;
+  background-color: red;
+  border: 2px rgb(185, 0, 0) solid;
+}
+
+#tischOeffnen {
+  font-size: 12px;
+  color: blue;
+  background-color: aqua;
+  border: 2px blue solid;
+}
+
+#twoFourth img {
+  margin: 0px 2px 2px 2px;
+}
+
+/* button:hover,
+img:hover {
+  cursor: pointer;
+} */
+
+button:hover,.imgOneSecond:hover,#divImgTable:hover,#divImgBagWithArrow:hover,#divImgBezahlung:hover,#divImgSearch:hover,#divImgAbc:hover,#twoFourth img:hover,#divKundenkarte:hover,#divLetzterBon:hover {
+  cursor: pointer;
+}
+
+#topDiv {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 460px; */
+  height: 534px;
+}
+
+.brightPink {background-color: rgb(229, 207, 207);}
+.aquaBlue {background-color: #72ffff;}
+.green {background-color: rgb(165, 255, 30);}
+.red {background-color: red;}
+.brightRed {background-color: rgb(255, 128, 128);}
+.grey {background-color: rgb(139, 142, 173); color: white;}
+.yellow {background-color: rgb(243, 243, 0);}
+
+#topDiv button {
+  width: 150px;
+  height: 74px;
+  margin: 1px;
+  font-weight: bold;
+}
+
+#middleDiv {
+  height: 14px;
+}
+
+#topDiv,#middleDiv,#bottomDiv {background-color: rgb(204, 223, 241);}
+
+#gOneDiv {
+  width: 46px;
+  height: 46px;
+  margin-top: 6px;
+}
+
+#gOneDiv button {
+  border: none;
+  width: 46px;
+  height: 46px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(170, 187, 203);
+}
+
+#rightContainerBottom {
+  background-color: rgb(98, 101, 139);
+  width: 414px;
+}
+
+#divKundenkarte {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 80px;
+  height: 50px;
+  margin: 2px 2px 0px 2px;
+}
+
+#kundenkarte {
+  font-size: 8px;
+}
+
+#divLetzterBon {
+  display: flex;
+  flex-direction: column;
+  width: 54px;
+  height: 50px;
+  background-color: white;
+  margin: 2px 112px 0px 2px;
+}
+
+#letzterBon {
+  font-size: 8px;
+}
+
+#divArrowsBottom {
+  height: 52px;
+  width: 104px;
+  /* background-color: blueviolet; */
+  margin-right: 2px;
+}
+
+#divArrowsBottom button {
+  color: blue;
+  height: 52px;
+  width: 50px;
+  font-size: 36px;
+  margin-right: 2px;
+}
+
+#divGo {
+  margin: 2px 0px;
+  height: 48px;
+  width: 54px;
+  background-color: white;
+  border: 0px black solid;
+  border-radius: 10%;
+}
+
+#divGo button {
+  background-color: blue;
+  color: white;
+  border: 2px black solid;
+  border-radius: 100%;
+  height: 46px;
+  width: 46px;
+  font-size: 20px;
+}
+
+
